@@ -1,4 +1,26 @@
+/*
+Codecademy : Learn Links and Buttons
+*/
+
+/*
+The proper order of these rules is:
+
+:link
+:visited
+:hover
+:active
+*/
+
 a {
-    color: blue;
-    text-decoration: underline;
+  color: #466995;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+    color: #466995;
+}
+
+a:hover {
+  text-decoration: none;
 }
