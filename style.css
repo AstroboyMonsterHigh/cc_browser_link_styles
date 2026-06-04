@@ -21,6 +21,14 @@ a:visited {
     color: #466995;
 }
 
+.question-link:visited {
+    color: #ffffff;
+}
+
 a:hover {
   text-decoration: none;
+}
+
+.question-link:active {
+    color: #DBE9EE;
 }
