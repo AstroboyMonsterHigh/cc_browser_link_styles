@@ -24,7 +24,7 @@ The proper order of these rules is:
 .answer:active {
     margin-top: 24px;
     margin-bottom: 16px;
-    box-shadow: 0px px;
+    box-shadow: 0px 0px;
     background-color: #C0D6DF;
     color: #ffffff;
 }
