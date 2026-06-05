@@ -11,24 +11,41 @@ The proper order of these rules is:
 :active
 */
 
-a {
-  color: #466995;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-a:visited {
-    color: #466995;
-}
-
 .question-link:visited {
+  color: #ffffff;
+}
+
+.answer {
+    border: 1px solid #466995;
+    border-radius: 10px;
+    box-shadow: 0 4px ;
+}
+
+.answer:active {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0px px;
+    background-color: #C0D6DF;
     color: #ffffff;
 }
 
-a:hover {
+a, .answer {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:link {
+  color: #61bff9;
+}
+
+a:visited, .answer {
+  color: #466995;
+}
+
+a:hover, .answer:hover { 
   text-decoration: none;
 }
 
-.question-link:active {
-    color: #DBE9EE;
+a:active, .answer:active {
+  color: #DBE9EE;
 }
