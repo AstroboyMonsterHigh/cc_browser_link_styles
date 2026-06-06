@@ -40,7 +40,10 @@ a:active, .answer:active {
     border: 1px solid #466995;
 }
 
+.answer:hover {
+    background-color: #C0D6DF;
+}
+
 .answer:active {
     color: #ffffff;
-    background-color: #C0D6DF;
 }
